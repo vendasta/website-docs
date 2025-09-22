@@ -1,10 +1,10 @@
 ---
 title: "Email History"
 sidebar_label: "Email History"
-description: "Vendasta has made it easier to understand the deliverability of outgoing emails sent through WordPress Hosting with the   Email History  feature . This centra"
+description: "WordPress Hosting makes it easier to understand the deliverability of outgoing emails with the Email History feature. This centralized"
 ---
 
-Vendasta has made it easier to understand the deliverability of outgoing emails sent through WordPress Hosting with the **Email History** feature. This centralized location allows all users to see details of all outgoing emails such as their delivery status and the time sent. To protect the privacy of your clients, Vendasta partners will not be able to see the actual content of the emails, however, your clients will be able to. 
+WordPress Hosting makes it easier to understand the deliverability of outgoing emails with the **Email History** feature. This centralized location allows all users to see details of all outgoing emails such as their delivery status and the time sent. To protect the privacy of your clients, partners will not be able to see the actual content of the emails, however, your clients will be able to. 
 
 Emails being sent through a user's website are usually automatically triggered when a customer fills out a contact form or expresses interest by providing their email address somewhere on the site. These outgoing emails will now be displayed in the Email History tab. 
 

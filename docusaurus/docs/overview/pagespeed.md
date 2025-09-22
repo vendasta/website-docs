@@ -1,10 +1,10 @@
 ---
 title: "PageSpeed"
 sidebar_label: "PageSpeed"
-description: "Vendasta's WordPress Hosting product has introduced richer PageSpeed data to the dashboard. Users are able to see a trend of their website's page speed over ti"
+description: "WordPress Hosting has introduced richer PageSpeed data to the dashboard. Users are able to see a trend of their website's page speed over time"
 ---
 
-Vendasta's WordPress Hosting product has introduced richer PageSpeed data to the dashboard. Users are able to see a trend of their website's page speed over time and, at a glance, understand opportunities to improve it.
+WordPress Hosting has introduced richer PageSpeed data to the dashboard. Users are able to see a trend of their website's page speed over time and, at a glance, understand opportunities to improve it.
 
 This additional PageSpeed data can help partners and their clients understand the impact of any recent site changes. 
 
