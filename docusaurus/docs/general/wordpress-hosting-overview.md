@@ -385,4 +385,129 @@ Only Partner Center admin users with access to all markets can view the Admin Da
 
 Note: White-label options are available on select subscription tiers.
 
-WordPress Hosting empowers Partners to offer high-performance websites across a range of client needs. Whether you’re building a fast, templated site with Standard or managing advanced deployments with Pro, you have the tools, infrastructure, and support needed to succeed.
+## Technical Specifications & Hosting Environment
+
+### PHP Version Management
+
+WordPress Hosting supports PHP 8.1 and allows you to upgrade via your dashboard. This upgrade is optional but recommended since older PHP versions have reached end of life and no longer receive security updates.
+
+**Before upgrading PHP, ensure:**
+- Your site is using **WordPress version 6.0 or higher**
+- All themes and plugins are up to date and compatible
+- You have created a **backup** (you can restore if issues arise)
+
+**To upgrade PHP:**
+1. Go to the WordPress Hosting dashboard
+2. Click on **Change PHP version**
+3. Select **8.1.1**
+4. Click **Accept**
+
+:::info
+You can roll back to an earlier version if needed.
+:::
+
+### Scalability and Resource Allocation
+
+WordPress Hosting is optimized to handle very high traffic volumes with:
+
+- **Unlimited pageviews**, database storage, and bandwidth
+- Hosting on **Google Cloud Platform's C2 machines**, optimized for compute-heavy workloads
+- **Dynamic scaling**: Resources scale up or down based on traffic automatically
+- **Global content delivery** via Google Cloud CDN for improved speed worldwide
+
+**Resource Management:**
+WordPress Hosting does not have fixed RAM/CPU limits per site. Instead, the infrastructure automatically **scales resources based on demand**:
+- Low resource usage during quiet hours
+- More server power dynamically allocated when traffic increases
+- No manual configuration or monitoring required
+
+### Database Limitations and Management
+
+**Database Size Limits:**
+WordPress Hosting does not currently impose restrictions on database sizes.
+
+**MySQL Resource Limits:**
+For WordPress Hosting accounts, certain MySQL resource limits are in place to manage extreme scenarios:
+- Approximately **720,000 queries per hour** limit
+- Designed to handle normal site traffic comfortably
+- Rarely exceeded under typical conditions
+
+**If you exceed MySQL limits:**
+- May result in HTTP 500 internal server errors
+- PHP error logs will indicate "max_questions" resource limit exceeded
+- Usually caused by poorly optimized plugins or themes
+
+**Prevention and Resolution:**
+1. **Optimize Plugins and Themes** – Regularly audit and update for efficiency
+2. **Monitor Site Traffic** – Track traffic spikes and unusual activity
+3. **Implement Caching Solutions** – Reduce direct database queries
+4. **Database Optimization** – Clean up unnecessary data and optimize tables
+5. **Security Measures** – Prevent malicious attacks that generate excessive queries
+
+### Server Environment Limitations
+
+WordPress Hosting runs in a **shared server environment** and does not provide root or SSH access.
+
+**What you cannot do:**
+- Deploy custom server-side applications like Node.js
+- Modify NGINX or Apache configurations
+- Use `.htaccess` files (WordPress Hosting uses NGINX)
+- Install custom applications requiring server-level access
+
+**WordPress Version Management:**
+- **Minor WordPress core updates** are applied automatically for security
+- **Plugin auto-updates** are off by default to prevent site breakage
+- You can manually enable automatic plugin updates from the dashboard
+- You can upgrade or downgrade WordPress versions using the WP Downgrade plugin
+
+### Server Architecture
+
+**Web Server:** NGINX (not Apache)
+- `.htaccess` rules will not work
+- Optimized for high-performance delivery
+- No Apache-style configuration available
+
+**Why NGINX over Apache:**
+- Better performance under high load
+- Lower memory usage
+- Improved handling of concurrent connections
+
+## Frequently Asked Questions
+
+<details>
+<summary>Can I upgrade to PHP 8.1 on WordPress Hosting?</summary>
+
+Yes, WordPress Hosting supports PHP 8.1. You can upgrade via your dashboard, but ensure your site uses WordPress 6.0+ and all plugins/themes are compatible. Always create a backup before upgrading.
+</details>
+
+<details>
+<summary>Is WordPress Hosting suitable for high-traffic websites?</summary>
+
+Yes, WordPress Hosting is optimized for high traffic with unlimited pageviews, Google Cloud Platform hosting, dynamic scaling, and global CDN. Resources automatically scale based on demand without manual configuration.
+</details>
+
+<details>
+<summary>What are the database size limits?</summary>
+
+There are no database size restrictions, but MySQL resource limits of approximately 720,000 queries per hour are in place to prevent abuse. This limit is rarely reached under normal conditions.
+</details>
+
+<details>
+<summary>Can I install custom server applications like Node.js?</summary>
+
+No, WordPress Hosting is a shared environment without root or SSH access. You cannot deploy custom server-side applications, modify server configurations, or use .htaccess files.
+</details>
+
+<details>
+<summary>How are WordPress updates handled?</summary>
+
+Minor WordPress core updates are applied automatically for security. Plugin auto-updates are disabled by default but can be enabled manually. You can also upgrade or downgrade WordPress versions using plugins.
+</details>
+
+<details>
+<summary>Why doesn't my .htaccess file work?</summary>
+
+WordPress Hosting uses NGINX web server instead of Apache, so .htaccess files are not supported. NGINX provides better performance and security but requires different configuration methods.
+</details>
+
+WordPress Hosting empowers you to offer high-performance websites across a range of client needs. Whether you're building a fast, templated site with Standard or managing advanced deployments, you have the tools, infrastructure, and support needed to succeed.

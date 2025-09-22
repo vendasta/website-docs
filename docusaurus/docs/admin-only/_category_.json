@@ -1,0 +1,11 @@
+{
+  "label": "Admin Only",
+  "position": 99,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Partner and admin-specific features and tools.",
+    "slug": "/admin-only"
+  }
+}
