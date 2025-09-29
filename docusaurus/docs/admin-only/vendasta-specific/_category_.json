@@ -1,0 +1,11 @@
+{
+  "label": "Vendasta Specific",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index", 
+    "description": "Vendasta-specific features and administrative controls.",
+    "slug": "/admin-only/vendasta-specific"
+  }
+}

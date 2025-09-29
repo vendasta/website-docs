@@ -53,7 +53,7 @@ When you hover over any element on your page, you'll see:
 - Opens a modal with typography, styling, and content options
 - Click the green checkmark to save changes
 
-![Text editing interface](./img/text-settings.png)
+![Text editing interface](../overview/img/divi-edit-text.png)
 
 ### Images
 
@@ -65,7 +65,7 @@ When you hover over any element on your page, you'll see:
 5. Click **"Add image"** to upload your replacement
 6. Drag and drop or browse to select your image
 
-![Section background settings](./img/section-settings.png)
+![Section background settings](../overview/img/divi-edit-background.png)
 
 **Regular images:**
 - Double-click any image element
@@ -102,7 +102,7 @@ When you hover over any element on your page, you'll see:
 - Hover over the element above where you want to add content
 - Look for the green **"+"** button (you may need to click the element first)
 
-![Adding elements interface](./img/elements.png)
+![Adding elements interface](../overview/img/divi-add-elements.png)
 
 **Choosing your layout:**
 1. Select a row structure (1 column, 2 columns, 3 columns, etc.)
