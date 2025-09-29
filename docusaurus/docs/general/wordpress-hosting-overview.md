@@ -101,18 +101,6 @@ All WordPress Hosting plans are hosted on Google Cloud Platform using compute-op
 
 All websites are hosted in the **us-central1-f** zone of Google Cloud (Council Bluffs, Iowa, USA). Additional regions may be added in the future to support global compliance and performance needs.
 
-### How to Start Selling WordPress Hosting
-
-1.  Log into **Partner Center**.
-    
-2.  Go to **Marketplace > Discover Products**.
-    
-3.  Search for **WordPress Hosting**.
-    
-4.  Click **Start Selling**.
-    
-5.  Click **Done** to publish it in your Store.
-    
 
 ### Setting Up a WordPress Hosting Website
 
@@ -363,27 +351,6 @@ If locked out of the admin dashboard:
 *   Run resource-heavy plugins
     
 
-### Access Control and White-Label Branding
-
-**Manage Internal Access**
-
-1.  Go to **Partner Center > Marketplace > Products > WordPress Hosting**
-    
-2.  Click **Product Info**
-    
-3.  Under **Access Control**, restrict access to team members only
-    
-
-Only Partner Center admin users with access to all markets can view the Admin Dashboard.
-
-**White-Labeling the Product**
-
-1.  In **Product Info**, locate **White-Label Branding**
-    
-2.  Customize product name and upload your brand’s logo
-    
-
-Note: White-label options are available on select subscription tiers.
 
 ## Technical Specifications & Hosting Environment
 

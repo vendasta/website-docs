@@ -186,21 +186,7 @@ Designed for agencies, educational institutions, and corporate networks managing
 
 ## Getting Started
 
-### Activation Process
-
-**New Activation:**
-1. Log in to Partner Center
-2. Navigate to **Accounts > Manage Accounts**
-3. Select the target account
-4. Click **Order Products** and search "WordPress Hosting"
-5. Choose your desired plan (Standard/Pro/Premium)
-6. Complete the order process
-
-**Upgrading Existing Plans:**
-1. Locate existing WordPress Hosting product
-2. Select **Change Edition** from the menu
-3. Choose your new plan level
-4. Acknowledge pricing changes and proceed
+Once WordPress Hosting is activated on your account, you can begin setting up your website through the WordPress Hosting dashboard.
 
 ### Setup Process
 
@@ -290,7 +276,7 @@ Designed for agencies, educational institutions, and corporate networks managing
 <details>
 <summary>Can I upgrade or downgrade my plan later?</summary>
 
-Yes, you can change plans through Partner Center. Upgrades are immediate, while downgrades may have restrictions based on current usage and features.
+Yes, you can change plans through your account dashboard. Upgrades are immediate, while downgrades may have restrictions based on current usage and features.
 </details>
 
 <details>
