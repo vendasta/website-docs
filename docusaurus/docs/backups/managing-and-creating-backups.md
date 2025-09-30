@@ -1,25 +1,61 @@
 ---
 title: "Managing and Creating Backups"
-sidebar_label: "Managing and Creating Backups"
-description: "The WordPress Hosting Pro Dashboard offers a robust backup system, empowering users to protect their digital assets efficiently. This article delves into the m"
+sidebar_label: "Managing Backups"
+description: "Learn how to manage, create, and restore backups for your WordPress site using the robust automated and manual backup system."
 ---
 
-The WordPress Hosting Pro Dashboard offers a robust backup system, empowering users to protect their digital assets efficiently. This article delves into the mechanics of creating backups from the Website Pro Dashboard, highlighting its importance and providing a straightforward, step-by-step guide.
+# Managing and Creating Website Backups
 
-**How Automated and Manual Backups Work**: The WordPress Hosting Pro Dashboard is equipped with a dual-layered backup system for unparalleled security:
+Protecting your website is crucial, and our hosting dashboard provides a powerful backup system to ensure your digital assets are always safe. This guide covers how our automated and manual backups work, how long we keep them, and how you can create a new backup in just a few clicks.
 
-**Automated Daily Backups**: The platform diligently creates backups for all websites on a daily basis, ensuring that your latest updates are safeguarded without requiring manual intervention.  
-**Manual Backup Capability**: For instances where immediate backup is crucial, users have the flexibility to generate backups at any time, providing an additional layer of control and peace of mind.  
-**Backup Retention Policy**: Understanding the varying needs of its users, the platform offers tiered backup retention periods:
+---
 
-*   **WordPress Hosting Pro Accounts**: Enjoy extended security with backups retained for up to 60 days, ideal for comprehensive project tracking and risk management.
-*   **WordPress Hosting Standard Accounts**: While still offering the essential safeguard, backups are retained for 1 day, emphasizing the importance of proactive management for these users.
+## How Backups Work: Automated vs. Manual
 
-### How does it work?
+Our platform offers a dual-layered backup system for complete peace of mind, combining automated daily backups with the flexibility of on-demand manual backups.
 
-Users can create a new backup of their live site at any time from the Backups tab. Click on the Backups Tab. Click on **Create a new backup from Production** or **Backup Now** to create a backup of the live/production site.
+### Automated Daily Backups
 
-![Screenshot 2025-05-27 at 3.08.23 PM.png](./img/32997952840599-27fd398bb0.png)**Initiate the Backup Process**: Within the Backups Tab, you will have two primary options:
+Every day, our system **automatically creates a backup of your live website**. This ensures that your latest content, updates, and changes are safeguarded without you needing to do anything.
 
-*   Create a new backup from Production: Ideal for capturing the current state of your live site. -
-*   Backup Now: Instantly generates a backup of your live/production site, ensuring any recent changes are secured.
+### Manual On-Demand Backups 
+
+For moments when you need an immediate backup—like right before a major update or theme change—you can generate a backup at any time. This gives you an extra layer of control and ensures you always have a recent recovery point.
+
+---
+
+## Backup Retention Policy
+
+We store your backups for a set period based on your hosting plan.
+
+-   **WordPress Hosting Pro Accounts**: Backups are retained for **60 days**, offering an extensive history for comprehensive project tracking and recovery.
+-   **WordPress Hosting Standard Accounts**: Backups are retained for **1 day**, providing an essential safeguard for your site.
+
+---
+
+## Important Note: Staging vs. Live Site Backups
+
+It is critical to understand the difference in how backups are handled for your live (production) and staging sites.
+
+-   **Live Sites**: Receive **automated daily backups**.
+-   **Staging Sites**: **Do NOT receive automated backups**. You must create backups for your staging site manually.
+
+### How to Back Up Your Staging Site
+
+To back up your staging environment, navigate to the **Backups** tab, switch to the **Staging** view, and click **Create new backup for staging**.
+![Creating a new backup from the Production tab](./img/create-backup-staging.png)
+
+
+---
+
+## How to Create a Manual Backup
+
+Creating a new backup of your live site is simple and can be done at any time from the **Backups** tab in your dashboard.
+
+1.  From your site dashboard, click on the **Backups** tab.
+2.  In the **Production** backups view, you will see a button to create a new backup.
+3.  Click **Create a new backup from Production** (or **Backup Now**) to start the process.
+
+  ![Switching to Staging Backups](./img/backup2.png)
+
+The system will immediately begin capturing the current state of your live site, ensuring all your recent changes are securely saved. Once complete, the new backup will appear in your list of available recovery points.
