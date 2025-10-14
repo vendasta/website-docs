@@ -3,8 +3,8 @@ To change a user’s WordPress role (from Administrator) you have two options.
 
 ## Option 1
 
-**Create User in Business Center–then change role  
-**Once you have created a Business Center user, log in to WordPress as that user.  Once you are in the WordPress dashboard, go to:
+Create User in Business Center–then change role  
+Once you have created a Business Center user, log in to WordPress as that user.  Once you are in the WordPress dashboard, go to:
 
 *   **Users > Role**
 
