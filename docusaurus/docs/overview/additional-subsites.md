@@ -1,7 +1,7 @@
 ---
 title: "Additional Subsites Add-on for WordPress Hosting Premium"
-sidebar_label: "Additional Subsites Add-on"
-description: "Add more subsites to WordPress Hosting Premium and scale your multisite network with flexible capacity and full dashboard visibility."
+sidebar_label: "Additional Subsites Add-on for WordPress Hosting Premium"
+description: "Additional Subsites Add-on for WordPress Hosting Premium \n \n \n Scale your WordPress Hosting Premium plan by adding more subsites. This add-on gives you flexible capacity, full dashboard visibility, and easy management as your multisite network grows."
 ---
 
 The **Additional Subsites Add-on** gives you flexible control to grow your WordPress multisite network with ease. With this add-on, you can expand your **WordPress Hosting Premium** plan beyond the default **1 Primary + 5 Subsites**, allowing you to scale as your organization grows.
@@ -62,8 +62,7 @@ In **WordPress Dashboard → Network Admin → Sites**, you can:
 
 ### Backup and Restore
 
-* If a backup contains more subsites than your limit, extra subsites are restored in **Deactivated** mode.  
-* The same rule applies when restoring from staging.  
+* If a backup contains more subsites than your limit, extra subsites are restored in **Deactivated** mode. The same rule applies when restoring from staging.  
 
 ![](./img/subsite-restoration.png)
 
