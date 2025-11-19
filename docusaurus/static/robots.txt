@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://docs.websitepro.hosting/sitemap.xml
+Sitemap: https://docs.businessapp.io/wordpress-hosting/sitemap.xml
