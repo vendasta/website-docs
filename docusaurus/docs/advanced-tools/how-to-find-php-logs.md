@@ -1,15 +1,15 @@
 ---
 title: "How to Find PHP Logs"
 sidebar_label: "How to Find PHP Logs"
-description: "If you're troubleshooting an issue or debugging your website, accessing PHP logs is crucial. WordPress Hosting Pro makes it easy to view these logs through the"
+description: "If you're troubleshooting an issue or debugging your website, accessing PHP logs is crucial. WordPress Hosting makes it easy to view these logs through the"
 ---
 
 If you're troubleshooting an issue or debugging your website, accessing PHP logs is crucial. WordPress Hosting Pro makes it easy to view these logs through the **Advanced Tools** section. Follow the steps below to locate your PHP logs:
 
 ### Steps to Access PHP Logs
 
-1.  **Log in to WordPress Hosting Pro**  
-    Start by logging into your WordPress Hosting Pro dashboard.
+1.  **Log in to WordPress Hosting**  
+    Start by logging into your WordPress Hosting  dashboard.
     
 2.  **Select Your Website**  
     From the list of websites, click on the one for which you want to access PHP logs.
