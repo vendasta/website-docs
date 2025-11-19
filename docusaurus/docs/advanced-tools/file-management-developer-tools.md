@@ -100,8 +100,8 @@ phpMyAdmin is a web-based tool that provides a graphical interface for managing 
 
 WordPress Hosting has specific file upload limits:
 - **Default limit**: 64 MB
-- **With free extension**: Up to 512 MB
-- **Maximum limit**: 256 MB (with plugin)
+- **With Big File Uploads plugin**: Up to 256 MB
+- **For larger files**: Use SFTP (no limit)
 
 ### Increasing Upload Limits
 
@@ -115,7 +115,7 @@ WordPress Hosting has specific file upload limits:
 
 **Method 2: For Files Larger Than 256 MB**
 
-Use SFTP to upload files directly to your server, bypassing WordPress upload limits entirely.
+Use SFTP to upload files directly to your server, bypassing WordPress upload limits entirely. This method has no file size restrictions.
 
 ### All-in-One WP Migration Limits
 
