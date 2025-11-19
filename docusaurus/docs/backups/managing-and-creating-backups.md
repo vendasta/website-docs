@@ -4,7 +4,7 @@ sidebar_label: "Managing and Creating Backups"
 description: "The WordPress Hosting Pro Dashboard offers a robust backup system, empowering users to protect their digital assets efficiently. This article delves into the m"
 ---
 
-The WordPress Hosting Pro Dashboard offers a robust backup system, empowering users to protect their digital assets efficiently. This article delves into the mechanics of creating backups from the Website Pro Dashboard, highlighting its importance and providing a straightforward, step-by-step guide.
+The WordPress Hosting Pro Dashboard offers a robust backup system, empowering users to protect their digital assets efficiently. This article delves into the mechanics of creating backups from the WordPress Hosting Dashboard, highlighting its importance and providing a straightforward, step-by-step guide.
 
 **How Automated and Manual Backups Work**: The WordPress Hosting Pro Dashboard is equipped with a dual-layered backup system for unparalleled security:
 

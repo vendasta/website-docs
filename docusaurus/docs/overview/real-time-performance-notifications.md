@@ -32,7 +32,7 @@ With this new feature, Partners can opt-in to receive in-app or email notificati
 
 Notifications can be enabled in three easy steps:
 
-1\. Click on the notifications bell in the Partner Center.
+1\. Click on the notifications bell in your account dashboard.
 
 ![Screen_Shot_2022-04-13_at_11.08.26_AM.png](./img/5426325099287-f619e29a01.png)
 
