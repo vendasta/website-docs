@@ -1,388 +1,267 @@
+# WordPress Hosting Overview
+
+Vendasta’s WordPress Hosting enables Partners to offer fast, secure, and customizable websites to clients of all sizes—from small businesses getting started online to agencies managing multiple sites.
+
+Built on Google Cloud Platform (GCP), WordPress Hosting delivers reliable infrastructure, strong performance, built-in eCommerce, and easy-to-use visual tools.
+
+This guide explains WordPress Hosting Standard and WordPress Hosting Pro, including setup, site management, domains, email, plugins, and access control.
+
 ---
-title: "WordPress Hosting Overview"
-sidebar_label: "WordPress Hosting Overview"
-description: "Vendasta’s WordPress Hosting product enables Partners to offer fast, secure, and customizable websites to clients of all sizes—from small businesses just getti"
+
+## WordPress Hosting Product Tiers
+
+### WordPress Hosting Standard
+
+WordPress Hosting Standard is a simplified version of WordPress Hosting Pro. It is included at no additional cost for Vendasta Partners on any paid subscription tier.
+
+#### Included Features
+
+- Pre-installed Divi Builder for visual editing
+- Pre-installed WooCommerce for eCommerce
+- Seven industry-specific templates
+- Hosting on Google Cloud Platform
+- Free SSL certificate via Let’s Encrypt
+- Daily backups (two most recent versions retained)
+- Built-in analytics for traffic and performance
+
+#### Limitations
+
+- Subdomains only (no custom domains)
+- No staging environment
+- Limited backup retention
+
 ---
 
-Vendasta’s WordPress Hosting product enables Partners to offer fast, secure, and customizable websites to clients of all sizes—from small businesses just getting started online to agencies managing dozens of sites. Built on Google Cloud Platform, it delivers reliable hosting, built-in eCommerce, robust performance, and easy-to-use visual tools.
+### WordPress Hosting Pro
 
-This guide provides everything you need to know about WordPress Hosting Standard and WordPress Hosting Pro, including how to set up sites, configure email and domains, manage backups and plugins, and customize access and branding.
+WordPress Hosting Pro includes all features of Standard, plus advanced tools for agencies and developers.
 
-### WordPress Hosting Product Tiers
+#### Additional Features
 
-**WordPress Hosting Standard**
+- Custom domain support
+- Staging environments
+- SFTP and phpMyAdmin access
+- Google Analytics integration
+- Automatic and manual backups (up to 90 days)
+- No plugin or theme restrictions
+- WordPress Hosting Admin Dashboard
+- AI-powered PHP log analysis (Advanced Tools > PHP Logs)
 
-WordPress Hosting Standard is a simplified version of WordPress Hosting Pro. It is free to Vendasta Partners on any paid subscription tier and is ideal for clients who need a quick, cost-effective online presence.
+---
 
-**Included Features:**
+## Infrastructure and Performance
 
-*   Pre-installed Divi Builder for visual site editing
-    
-*   Pre-installed WooCommerce for eCommerce functionality
-    
-*   Seven industry-specific templates
-    
-*   Hosting on Google Cloud Platform
-    
-*   Free SSL certificate via Let’s Encrypt
-    
-*   Daily backups (two most recent versions retained)
-    
-*   Built-in analytics for traffic and performance
-    
+All WordPress Hosting plans run on Google Cloud Platform using compute-optimized C2 machines.
 
-**Limitations:**
+### Technical Specifications
 
-*   No support for custom domains (uses subdomains only)
-    
-*   No staging environment
-    
-*   Limited backup retention (only two versions)
-    
+- Unlimited pageviews and bandwidth
+- Unmetered CloudSQL database storage (per site)
+- NGINX web server
+- PHP 7+
+- Free SSL certificates via Let’s Encrypt
+- HTTPS-only firewall with Google botnet IP blocking
+- Docker containers with Kubernetes orchestration
+- Automatic minor WordPress core updates
 
-**WordPress Hosting Pro**
+### Performance Benchmarks
 
-WordPress Hosting Pro offers all features of Standard, plus a full suite of tools for developers, agencies, and advanced users.
+| Concurrent Users | Avg Response Time |
+|------------------|-------------------|
+| 30 users         | 1.3 seconds       |
+| 60 users         | 1.7 seconds       |
+| 100 users        | 2.4 seconds       |
+| 200 users        | 4.1 seconds       |
 
-**Additional Features:**
+### Server Location
 
-*   Custom domain support
-    
-*   Staging environments for safe changes
-    
-*   phpMyAdmin and SFTP access
-    
-*   Google Analytics integration
-    
-*   Automatic and manual backups, retained up to 90 days
-    
-*   No plugin or theme restrictions
-    
-*   Access to the WordPress Hosting Admin Dashboard for centralized site management
-    
-*   AI-powered PHP log analysis via Advanced Tools > PHP Logs
-    
+All sites are hosted in us-central1-f (Council Bluffs, Iowa, USA).
 
-### Infrastructure and Performance
+---
 
-All WordPress Hosting plans are hosted on Google Cloud Platform using compute-optimized C2 machines for high-speed, secure, and scalable performance.
+## How to Start Selling WordPress Hosting
 
-**Technical Specifications:**
+1. Log in to Partner Center
+2. Go to Marketplace > Discover Products
+3. Search for WordPress Hosting
+4. Click Start Selling
+5. Click Done to publish it in your Store
 
-*   Unlimited pageviews and bandwidth
-    
-*   Unmetered CloudSQL database storage (isolated per site)
-    
-*   NGINX web server
-    
-*   PHP 7+
-    
-*   Free SSL certificates via Let’s Encrypt
-    
-*   HTTPS-only firewall with Google botnet IP blocking
-    
-*   Docker containers and Kubernetes orchestration
-    
-*   Automatic core updates for minor WordPress versions
-    
+---
 
-**Performance Benchmarks:**
+## Setting Up a WordPress Hosting Website
 
-*   30 concurrent users: 1.3 seconds average response time
-    
-*   60 concurrent users: 1.7 seconds
-    
-*   100 concurrent users: 2.4 seconds
-    
-*   200 concurrent users: 4.1 seconds
-    
+### Step 1: Choose a Subdomain or Domain
 
-**Server Location:**
+During setup, provide:
 
-All websites are hosted in the **us-central1-f** zone of Google Cloud (Council Bluffs, Iowa, USA). Additional regions may be added in the future to support global compliance and performance needs.
+- Business name
+- Marketing tagline
+- Subdomain (example: mybusiness.websitepro.hosting)
 
-### How to Start Selling WordPress Hosting
+> Note: Custom domains are supported on WordPress Hosting Pro only.
 
-1.  Log into **Partner Center**.
-    
-2.  Go to **Marketplace > Discover Products**.
-    
-3.  Search for **WordPress Hosting**.
-    
-4.  Click **Start Selling**.
-    
-5.  Click **Done** to publish it in your Store.
-    
+---
 
-### Setting Up a WordPress Hosting Website
+### Step 2: Select a Template
 
-**Step 1: Choose a Subdomain or Domain**
+Available templates:
 
-When setting up a site, users are prompted to define:
+| Template | Best For |
+|--------|---------|
+| Retail | Bookstores, clothing shops, pet stores |
+| Services | Hairdressers, movers, life coaches |
+| Education | Preschools, cooking classes |
+| B2B | Agencies, startups, SaaS |
+| Home Services | Renovators, painters |
+| Art / Photography | Artists, photographers |
+| Health & Fitness | Gyms, yoga studios |
 
-*   **Business Name**
-    
-*   **Marketing Tagline**
-    
-*   **Subdomain** (e.g., mybusiness.websitepro.hosting)
-    
+All templates include Divi Builder and WooCommerce.
 
-**Note:** Only WordPress Hosting Pro supports custom domains.
+---
 
-**Step 2: Select a Template**
+### Step 3: Customize with Divi Builder
 
-Seven customizable templates are available:
+You can:
 
-Template
-
-Best For
-
-Retail
-
-Bookstores, Clothing Shops, Pet Stores
-
-Services
-
-Hairdressers, Movers, Life Coaches
-
-Education
-
-Preschools, Cooking Classes, Clubs
-
-B2B
-
-Agencies, Startups, SaaS
-
-Home Services
-
-Renovators, Painters, Cleaners
-
-Art/Photography
-
-Crafters, Artists, Photographers
-
-Health/Fitness
-
-Gyms, Yoga Studios, Dance Instructors
-
-All templates come pre-installed with WooCommerce and Divi Builder.
-
-**Step 3: Customize with Divi Builder**
-
-Users can:
-
-*   Enable the **Visual Builder**
-    
-*   Click on text, images, or modules to edit content live
-    
-*   Add sections by clicking the **plus (+) icon**
-    
-*   Modify fonts, layout, colors, buttons, and spacing
-    
-*   Use the media library for image management
-    
+- Edit text and images directly on the page
+- Add sections using the plus (+) icon
+- Customize fonts, colors, spacing, and layout
+- Manage images using the media library
 
 To save changes:
 
-1.  Click the purple icon at the bottom of the screen.
-    
-2.  Select **Save** on the right.
-    
-3.  Return to the WordPress dashboard from the top-left menu.
-    
+1. Click the purple menu icon
+2. Select Save
+3. Return to the WordPress dashboard
 
-**Step 4: Set Up WooCommerce Store**
+---
 
-1.  Create a **WooCommerce** account using the same email as the WordPress admin.
-    
-2.  Complete the Setup Wizard:
-    
-    *   Store address and currency
-        
-    *   Product types (physical/digital)
-        
-    *   Payment methods (Stripe, PayPal, offline)
-        
-    *   Shipping zones and rates
-        
-    *   Optional Jetpack add-on (not required)
-        
-3.  To add products:
-    
-    *   Go to **Products > Add New**
-        
-    *   Add product title, description, pricing, category, and image
-        
+### Step 4: Set Up WooCommerce
 
-Refer to WooCommerce documentation for more on managing inventory, shipping, orders, and taxes.
+1. Create a WooCommerce account using the WordPress admin email
+2. Complete the setup wizard:
+   - Store address and currency
+   - Product types
+   - Payment methods
+   - Shipping zones and rates
+3. Optional: Jetpack add-on
 
-### Importing an Existing Site
+To add products:
 
-1.  **Create a new WordPress Hosting site** as a placeholder.
-    
-2.  **Update the existing WordPress site** (core, plugins, themes) to be PHP 7-compatible.
-    
-3.  **Install All-in-One WP Migration plugin** on both sites.
-    
-4.  **Export the old site:**
-    
-    *   Go to **All-in-One WP Migration > Export > Export to > File**
-        
-    *   Save the exported file
-        
-5.  **Import to new site:**
-    
-    *   Go to **All-in-One WP Migration > Import > Import From > File**
-        
-    *   Upload and restore the file
-        
+- Go to Products > Add New
+- Enter product details, pricing, and images
 
-### Domain, DNS, and Email Configuration
+---
 
-**DNS Basics**
+## Importing an Existing WordPress Site
 
-*   **A Record**: Points a domain to a specific IP (e.g., mysite.com → 216.239.38.21)
-    
-*   **CNAME**: Maps a subdomain to a primary domain (e.g., www → mysite.com)
-    
-*   **CAA**: Restricts SSL certificate issuance to specific authorities
-    
+1. Create a new WordPress Hosting site
+2. Update the existing site to PHP 7+
+3. Install All-in-One WP Migration on both sites
+4. Export the old site
+5. Import the file into the new site
 
-**SSL Certificates**
+---
 
-All WordPress Hosting sites receive free SSL certificates from Let’s Encrypt. TLS versions 1.1–1.3 are supported for encrypted, secure traffic.
+## Domains, DNS, and Email
 
-### DNSSEC Support
+### DNS Record Types
 
-Enabling DNSSEC adds cryptographic validation to DNS records.
+- A Record: Points a domain to an IP address
+- CNAME: Maps a subdomain to another domain
+- CAA: Controls SSL certificate issuance
 
-**Effects:**
+---
 
-*   **On:** More secure; may slow DNS propagation
-    
-*   **Off:** Faster propagation; less protection from DNS attacks
-    
+### SSL Certificates
 
-### Email Delivery and Configuration
+All sites include free SSL certificates via Let’s Encrypt. TLS versions 1.1–1.3 are supported.
 
-By default, WordPress Hosting Pro uses **SendGrid** for transactional emails (e.g., contact forms, order confirmations).
+---
 
-To use an external SMTP plugin:
+### DNSSEC
 
-1.  Go to **Settings > General**
-    
-2.  Disable the “WordPress Hosting Pro Mail System” toggle
-    
-3.  Click **Save Changes**
-    
-4.  Install and configure your chosen SMTP plugin
-    
+- Enabled: Increased security, slower propagation
+- Disabled: Faster propagation, reduced protection
 
-To prevent spam filtering, verify DNS settings:
+---
 
-*   SPF
-    
-*   DKIM
-    
-*   DMARC
-    
+### Email Configuration
 
-Manage DNS validation at **Business App > Administration > Email Configuration**.
+WordPress Hosting Pro uses SendGrid for transactional email.
 
-### Plugin Management
+To use a third-party SMTP plugin:
 
-**Plugin Conflicts**
+1. Go to Settings > General
+2. Disable WordPress Hosting Pro Mail System
+3. Save changes
+4. Configure your SMTP plugin
 
-Some plugins are either redundant or conflict with built-in features.
+Ensure SPF, DKIM, and DMARC records are configured.
 
-**Avoid these types of plugins:**
+---
 
-*   **Caching**: W3 Total Cache, WP Super Cache, A2 Optimized WP
-    
-*   **Backups**: BackupBuddy, BackWPup, UpdraftPlus
-    
-*   **Login**: Rename WP Login, Login LockDown
-    
-*   **SMTP/Email**: Configure SMTP, WP Mailing List
-    
-*   **Security**: Shield Security
-    
-*   **Other**: EWWW Image Optimizer, Slider Revolution (old versions), Redirection
-    
+## Plugin Management
 
-**Blacklisted Plugins:**
+### Plugin Conflicts
 
-*   Akeeba Backup
-    
-*   File Manager (v6.0, v6.8)
-    
-*   WP phpMyAdmin (already included)
-    
+Avoid plugins that duplicate built-in features:
 
-### Deactivating Plugins Without Dashboard Access
+- Caching plugins
+- Backup plugins
+- Login and security plugins
+- SMTP plugins when SendGrid is enabled
 
-If locked out of the admin dashboard:
+### Blacklisted Plugins
 
-**Option 1: Using phpMyAdmin**
+- Akeeba Backup
+- File Manager (v6.0, v6.8)
+- WP phpMyAdmin
 
-*   Go to `wp_options` table
-    
-*   Locate `active_plugins` row
-    
-*   Set value to: `a:0:{}`
-    
+---
 
-**Option 2: Using FTP/File Manager**
+### Recovering Access Without Dashboard Login
 
-1.  Navigate to `wp-content`
-    
-2.  Rename the `plugins` folder to `plugins.hold`
-    
-3.  Log into `/wp-admin/plugins.php` to disable missing plugins
-    
-4.  Rename the folder back to `plugins`
-    
+**Using phpMyAdmin**
 
-### Memory Limits
+- Open wp_options
+- Set active_plugins to: a:0:{}
 
-**PHP Memory Limit** and **WP Memory Limit** determine how much memory a website can use.
+**Using FTP or File Manager**
 
-*   WordPress Hosting Pro does not allow manual increases for stability and security.
-    
-*   Requests for increased memory can be made through your account administrator.
-    
+- Rename wp-content/plugins to plugins.hold
+- Log in to /wp-admin/plugins.php
+- Rename the folder back to plugins
 
-**Why limits matter:**
+---
 
-*   Prevent site crashes
-    
-*   Support high-traffic sites
-    
-*   Enable large file uploads
-    
-*   Run resource-heavy plugins
-    
+## Memory Limits
 
-### Access Control and White-Label Branding
+WordPress Hosting Pro enforces fixed memory limits for platform stability.
 
-**Manage Internal Access**
+Requests for increases must be submitted through an account administrator.
 
-1.  Go to **Partner Center > Marketplace > Products > WordPress Hosting**
-    
-2.  Click **Product Info**
-    
-3.  Under **Access Control**, restrict access to team members only
-    
+---
 
-Only Partner Center admin users with access to all markets can view the Admin Dashboard.
+## Access Control and White-Label Branding
 
-**White-Labeling the Product**
+### Internal Access Control
 
-1.  In **Product Info**, locate **White-Label Branding**
-    
-2.  Customize product name and upload your brand’s logo
-    
+- Partner Center > Marketplace > WordPress Hosting
+- Open Product Info
+- Restrict access to internal users
 
-Note: White-label options are available on select subscription tiers.
+---
 
-WordPress Hosting empowers Partners to offer high-performance websites across a range of client needs. Whether you’re building a fast, templated site with Standard or managing advanced deployments with Pro, you have the tools, infrastructure, and support needed to succeed.
+### White-Label Branding
+
+- Go to Product Info > White-Label Branding
+- Customize product name and logo
+
+---
+
+## Summary
+
+WordPress Hosting allows Partners to deliver high-performance, secure websites at scale. Standard is ideal for quick launches, while Pro supports advanced workflows and customization.
