@@ -1,61 +1,153 @@
 ---
 title: "Managing and Creating Backups"
 sidebar_label: "Managing Backups"
-description: "Learn how to manage, create, and restore backups for your WordPress site using the robust automated and manual backup system."
+description: "Learn how to create, manage, and restore backups for your WordPress site using automated and manual backup options."
 ---
 
 # Managing and Creating Website Backups
 
-Protecting your website is crucial, and our hosting dashboard provides a powerful backup system to ensure your digital assets are always safe. This guide covers how our automated and manual backups work, how long we keep them, and how you can create a new backup in just a few clicks.
+Backups are essential for protecting your website against data loss, failed updates, or accidental changes. WordPress Hosting includes a reliable backup system that allows you to restore your site quickly and confidently when needed.
+
+This guide explains how backups work, how long they’re retained, how to create and restore backups, and best practices for protecting both live and staging sites.
 
 ---
 
-## How Backups Work: Automated vs. Manual
+## Backup System Overview
 
-Our platform offers a dual-layered backup system for complete peace of mind, combining automated daily backups with the flexibility of on-demand manual backups.
+WordPress Hosting uses a **two-layer backup system** designed for both convenience and control:
 
-### Automated Daily Backups
+- **Automated daily backups** for live (production) sites  
+- **Manual, on-demand backups** for live and staging sites  
 
-Every day, our system **automatically creates a backup of your live website**. This ensures that your latest content, updates, and changes are safeguarded without you needing to do anything.
-
-### Manual On-Demand Backups 
-
-For moments when you need an immediate backup—like right before a major update or theme change—you can generate a backup at any time. This gives you an extra layer of control and ensures you always have a recent recovery point.
+This ensures you always have a recovery point available—whether you’re performing routine maintenance or making major updates.
 
 ---
 
-## Backup Retention Policy
+## Automated Daily Backups
 
-We store your backups for a set period based on your hosting plan.
+Automated backups are enabled by default for live websites.
 
--   **WordPress Hosting Pro Accounts**: Backups are retained for **60 days**, offering an extensive history for comprehensive project tracking and recovery.
--   **WordPress Hosting Standard Accounts**: Backups are retained for **1 day**, providing an essential safeguard for your site.
+### What’s Included
+- A backup of your **production site is created once every day**
+- No manual action is required
+- Captures recent content, configuration changes, and updates
+
+Automated backups provide a dependable safety net for unexpected issues such as failed plugin updates or site errors.
 
 ---
 
-## Important Note: Staging vs. Live Site Backups
+## Manual (On-Demand) Backups
 
-It is critical to understand the difference in how backups are handled for your live (production) and staging sites.
+Manual backups allow you to create a backup at any time.
 
--   **Live Sites**: Receive **automated daily backups**.
--   **Staging Sites**: **Do NOT receive automated backups**. You must create backups for your staging site manually.
+### When to Use Manual Backups
+- Before updating plugins or themes  
+- Prior to design or layout changes  
+- Before troubleshooting or testing fixes  
+- When working in a staging environment  
 
-### How to Back Up Your Staging Site
+Manual backups give you immediate control and peace of mind before making changes.
 
-To back up your staging environment, navigate to the **Backups** tab, switch to the **Staging** view, and click **Create new backup for staging**.
-![Creating a new backup from the Production tab](./img/create-backup-staging.png)
+---
 
+## Backup Retention by Hosting Plan
+
+Backup retention varies depending on your WordPress Hosting tier.
+
+### WordPress Hosting Pro
+- Backups retained for **up to 60 days**
+- Ideal for agencies, developers, and advanced workflows
+- Provides access to a longer restore history
+
+### WordPress Hosting Standard
+- Backups retained for **1 day**
+- Provides essential protection for basic site recovery
+
+Backups older than the retention window are automatically removed.
+
+---
+
+## Live Site vs. Staging Site Backups
+
+Understanding how backups differ between environments is important.
+
+### Live (Production) Sites
+- Receive **automated daily backups**
+- Support **manual backups** at any time
+
+### Staging Sites
+- **Do not receive automated backups**
+- Require **manual backups only**
+
+If you’re testing changes in staging, be sure to create a manual backup first.
 
 ---
 
 ## How to Create a Manual Backup
 
-Creating a new backup of your live site is simple and can be done at any time from the **Backups** tab in your dashboard.
+### Production (Live) Site
 
-1.  From your site dashboard, click on the **Backups** tab.
-2.  In the **Production** backups view, you will see a button to create a new backup.
-3.  Click **Create a new backup from Production** (or **Backup Now**) to start the process.
+1. Open your site dashboard.
+2. Navigate to the **Backups** tab.
+3. Ensure **Production** is selected.
+4. Click **Create a new backup from Production** or **Backup Now**.
 
-  ![Switching to Staging Backups](./img/backup2.png)
+![Creating a production backup](./img/backup-production.png)
 
-The system will immediately begin capturing the current state of your live site, ensuring all your recent changes are securely saved. Once complete, the new backup will appear in your list of available recovery points.
+Once started, the system captures the current state of your live site. The new backup will appear in the list once complete.
+
+---
+
+### Staging Site
+
+1. Go to the **Backups** tab.
+2. Switch to the **Staging** view.
+3. Click **Create new backup for staging**.
+
+![Creating a staging backup](./img/create-backup-staging.png)
+
+Staging backups must always be created manually.
+
+---
+
+## How to Restore a Backup
+
+Restoring a backup allows you to revert your site to a previous working state.
+
+### Steps to Restore a Backup
+
+1. Open the **Backups** tab in your site dashboard.
+2. Locate the backup you want to restore.
+3. Click **Restore** next to the selected backup.
+4. Confirm the restore action when prompted.
+
+![Restoring a backup](./img/restore_backup.png)
+
+⚠️ **Important:**  
+Restoring a backup will overwrite your current site data. Any changes made after the backup was created will be lost.
+
+---
+
+## Best Practices for Managing Backups
+
+- Create a **manual backup before major updates or changes**
+- Always back up your **staging site manually**
+- Be mindful of **retention limits**, especially on Standard plans
+- Use backups as part of a regular maintenance workflow
+- Avoid relying on backups as a substitute for proper testing
+
+---
+
+## Summary: Backup Capabilities by Plan
+
+| Feature | Standard | Pro |
+|------|--------|-----|
+| Automated Daily Backups | ✅ | ✅ |
+| Manual Backups | ✅ | ✅ |
+| Staging Backups | Manual only | Manual only |
+| Backup Retention | 1 day | Up to 60 days |
+| Restore Capability | ✅ | ✅ |
+
+---
+
+Using automated and manual backups together ensures your website remains protected, recoverable, and ready for change—whether you’re running a simple business site or managing multiple client projects.
