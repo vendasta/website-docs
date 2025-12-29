@@ -1,29 +1,90 @@
 ---
-title: "Merge multiple SPF records into a single record"
-sidebar_label: "Merge multiple SPF records into a single record"
-description: "To merge the SPF values, simply include all the parts into one single record, without repeating any mechanisms. Here's how to merge the following example SPF"
+title: "Merge Multiple SPF Records Into a Single Record"
+sidebar_label: "Merge SPF Records"
+description: "Learn how to safely merge multiple SPF records into a single valid record to prevent email delivery issues and authentication failures."
 ---
 
-To merge the SPF values, simply include all the parts into one single record, without repeating any mechanisms. Here's how to merge the following example SPF records for Outlook and MailerLite:
+## Overview
 
-**v=spf1 a include:spf.protection.outlook.com -all**
+Domains are allowed to have **only one SPF record**.  
+If multiple SPF records exist, email authentication will fail, often resulting in **deferred emails, spam filtering, or rejected messages**.
 
-**v=spf1 a mx include:\_spf.mlsend.com ~all**
+This guide explains:
+- Why multiple SPF records are a problem
+- How to merge two SPF records into one
+- A step-by-step example
+- A recommended SPF merge tool to avoid errors
 
-**1\. The SPF record always begins with the version prefix:**
+---
 
-**v=spf1**
+## Why SPF Records Must Be Merged
 
-**2\. Both records contain an "a" mechanism and the MailerLite SPF record contains a "mx" mechanism, so include both in the new record:**
+SPF (Sender Policy Framework) defines which mail servers are authorized to send emails on behalf of your domain.
 
-**v=spf1 a mx**
+❌ Having more than one SPF record will:
+- Break SPF validation
+- Cause DMARC failures
+- Lead to deferred or blocked emails
 
-**3\. Then add both "include" mechanisms into the record, resulting in:**
+✔ Merging SPF records ensures:
+- Proper email authentication
+- Better inbox placement
+- Reduced spam classification
 
-**v=spf1 a mx include:spf.protection.outlook.com include:\_spf.mlsend.com**
+---
 
-4\. Lastly, we need to define how emails should be treated if they don't comply with the set rules. We do this by using the **all** mechanism. The last part has to be either **?all**, **\-all** or **~all**. It’s not possible to have more than one, so it is ultimately your choice which declaration of **all** your domains will use.
+## Example: Two Existing SPF Records
 
-**The merged SPF record would look like this:**
+Below are two separate SPF records that **cannot coexist**:
 
-_**v=spf1 a mx include:spf.protection.outlook.com include:\_spf.mlsend.com ~all**_
+
+---
+
+## Important SPF Rules to Remember
+
+- ✔ Only **one SPF record per domain**
+- ✔ Each mechanism (`a`, `mx`, `include`) appears **once**
+- ✔ `all` must be the **last element**
+- ❌ Do not publish multiple `v=spf1` records
+- ❌ Do not exceed **10 DNS lookups**
+
+---
+
+## Use an SPF Merge Tool (Recommended)
+
+To avoid syntax mistakes and DNS lookup issues, use a trusted SPF merging tool.
+
+### 🔧 SPF Merge & Validation Tool
+👉 **https://dmarcdkim.com/tools/merge-spf-records**
+
+This tool helps you:
+- Merge multiple SPF records safely
+- Validate SPF syntax
+- Check DNS lookup limits
+- Generate a production-ready SPF record
+
+---
+
+## Publishing the Merged SPF Record
+
+1. Log in to your DNS provider
+2. Remove **all existing SPF TXT records**
+3. Add **one merged SPF record**
+4. Save changes
+5. Allow up to **24 hours** for DNS propagation
+
+---
+
+## Summary
+
+- Domains must have **one SPF record only**
+- Multiple SPF records cause email delivery failures
+- Merge all mechanisms into a single SPF record
+- Use an SPF merge tool to avoid errors
+- Proper SPF configuration improves deliverability and trust
+
+If email issues persist after merging SPF records, authentication (DKIM and DMARC) should also be reviewed.
+
+---
+
+
