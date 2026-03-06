@@ -1,12 +1,12 @@
 ---
 title: "What is phpMyAdmin?"
 sidebar_label: "What is phpMyAdmin?"
-description: "What is phpMyAdmin? \n \n \n \n \n \n \n phpMyAdmin is a open source web-based tool that allows you to manage the database of your WordPress site. It's a powerful int"
+description: "What is phpMyAdmin? \n \n \n \n \n \n \n phpMyAdmin is an open source web-based tool that allows you to manage the database of your WordPress site. It's a powerful int"
 ---
 
 ### What is phpMyAdmin?
 
-phpMyAdmin is a open source web-based tool that allows you to manage the database of your WordPress site. It's a powerful interface for interacting with the MySQL database that stores all the essential data for your WordPress Hosting Pro. It provides a graphical user interface (GUI) to manage and interact with databases, making it easier for users to perform database-related tasks without requiring advanced knowledge of SQL commands.Here's what it is and what it's commonly used for:
+phpMyAdmin is an open source web-based tool that allows you to manage the database of your WordPress site. It's a powerful interface for interacting with the MySQL database that stores all the essential data for your WordPress Hosting Pro. It provides a graphical user interface (GUI) to manage and interact with databases, making it easier for users to perform database-related tasks without requiring advanced knowledge of SQL commands. Here's what it is and what it's commonly used for:
 
 1.  **Managing the WordPress Hosting Pro Database**
     

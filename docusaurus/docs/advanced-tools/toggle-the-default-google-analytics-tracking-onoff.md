@@ -12,7 +12,7 @@ To give our partners the option to opt out of the use of Google Analytics in an 
 
 If at any time our partners would like to turn Google Analytics back on, the toggle can be switched back on and the tracking code will be added again, data will resume being collected, and the analytics charts will resume functioning normally.
 
-### How to Toggle the Default Google Analytics Tacking On/OFF
+### How to Toggle the Default Google Analytics Tracking On/OFF
 
 1\. Go to your WordPress Hosting dashboard
 
