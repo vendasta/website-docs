@@ -18,7 +18,7 @@ The site below has a staging environment:
 
 In the staging environment, customers can test out their site updates, and once satisfied push to live.
 
-Please Note: If you still want the staging files to be present after pushing the site to live, please checkbox "Preserve the Staging files" or they will be deleted. 
+Please Note: If you still want the staging files to be present after pushing the site to live, please check the "Preserve the Staging files" checkbox or they will be deleted. 
 
 ![mceclip2.png](./img/4406961488151-d1e41336e3.png)
 
