@@ -8,7 +8,7 @@ WordPress Hosting Standard and Pro users will see a section on the product’s d
 
 This section includes a series of links to help a user navigate the product and serves as a checklist when building their website. 
 
-Depending on the plugins available on the website, the section will display three sections: 
+Depending on the plugins available on the website, the section will display three areas: 
 
 1.  Set Up Store
 2.  Customize Your Site
