@@ -12,7 +12,7 @@ Channel Partners have the option for enhanced visibility into their client exper
 
 ![Screen_Shot_2022-04-12_at_5.18.31_PM.png](./img/5426325099287-64e42cc219.png)
 
-With this new feature, Partners can opt-in to receive in-app or email notifications from their managed client's websites to be notified in real-time in the event of unplanned downtime, and the moment the service is restored.
+With this new feature, Partners can opt-in to receive in-app or email notifications from their managed clients' websites to be notified in real-time in the event of unplanned downtime, and the moment the service is restored.
 
 ### Why are real-time notifications important?
 
