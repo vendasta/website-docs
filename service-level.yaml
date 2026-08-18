@@ -1,0 +1,8 @@
+services:
+  - name: website-docs
+    owner: documentation
+    language: typescript
+    platform: Cloud Run
+    status: active
+    description: "WordPress Hosting product documentation site (docs.businessapp.io/wordpress-hosting)."
+    nonServiceType: reference
