@@ -12,7 +12,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Fast, Secure WordPress Hosting',
     description: (
       <>
-        Leverage our powerful, managed WordPress hosting on Google Cloud Platform to deliver a fast and secure experience for your clients.
+        Offer fully managed, secure, high-performance WordPress hosting to deliver a fast and secure experience for your clients.
       </>
     ),
   },

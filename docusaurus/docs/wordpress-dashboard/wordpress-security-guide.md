@@ -35,8 +35,8 @@ WordPress security is crucial for protecting your website from threats, maintain
 ### WordPress Hosting Security Features
 
 WordPress Hosting includes built-in security measures:
-- **DDoS protection** via Google Cloud Armor
-- **Web Application Firewall (WAF)** filtering malicious traffic
+- **DDoS protection** built in on every site
+- **Built-in firewall** filtering malicious traffic
 - **Automatic SSL certificates** for encrypted connections
 - **Secure login integration** through dashboard authentication
 - **Regular security updates** for WordPress core
