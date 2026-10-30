@@ -6,23 +6,22 @@ description: "Complete overview of WordPress Hosting Standard, Pro, and Premium 
 
 # WordPress Hosting Features & Plans
 
-WordPress Hosting offers three tiers of managed WordPress hosting solutions, each designed for different needs and use cases. All plans are hosted on Google Cloud Platform for optimal performance, security, and reliability.
+WordPress Hosting offers three tiers of managed WordPress hosting solutions, each designed for different needs and use cases. All plans are fully managed, secure, high-performance hosting.
 
 ## Platform Overview
 
 ### Core Infrastructure
 
-**Google Cloud Platform Foundation:**
-- **State-of-the-art infrastructure** for optimal performance
-- **Google-fast loading speeds** with global CDN
-- **Automatic scaling** as your business grows
-- **Enterprise-grade security** and protection
-- **99.9% uptime reliability** with monitoring
+**Managed Hosting Foundation:**
+- **Fully managed, high-performance hosting** for optimal speed and reliability
+- **Per-site isolation** so each site runs separately from others
+- **Global CDN** for fast load times worldwide (Pro and Premium only)
+- **Built-in firewall and DDoS protection** on every site
 
 **Universal Features Across All Plans:**
-- **Free SSL certificates** via Let's Encrypt
+- **Free SSL certificates** that renew automatically
 - **Daily automated backups** with cloud storage
-- **DDoS protection** and Web Application Firewall
+- **Built-in firewall** and DDoS protection
 - **HTTPS encryption** for all sites
 - **WordPress core updates** managed automatically
 - **Built-in caching** for optimal performance
@@ -36,8 +35,7 @@ Perfect for small businesses, startups, and individuals who need a quick, cost-e
 
 **Hosting Capabilities:**
 - **Subdomain hosting** (yoursite.websitepro.hosting)
-- **Google Cloud Platform** infrastructure
-- **Daily backups** (2 most recent versions retained)
+- **Daily backups**
 - **Free SSL certificate** included
 - **Built-in analytics** for traffic and performance
 
@@ -50,7 +48,6 @@ Perfect for small businesses, startups, and individuals who need a quick, cost-e
 ### Limitations
 - **No custom domain support**
 - **No staging environment**
-- **Limited backup retention** (only 2 versions)
 - **Basic analytics** only
 
 ### Best For
@@ -127,8 +124,8 @@ Designed for agencies, educational institutions, and corporate networks managing
 ### Advanced Capabilities
 
 **Infrastructure:**
-- **Elastic scaling** to handle traffic surges
-- **Enhanced security** with Cloud Armor protection
+- **Global CDN** for fast load times worldwide (Pro and Premium only)
+- **Enhanced security** with a built-in firewall and DDoS protection
 - **Advanced backup systems** with multiple retention options
 - **Priority support** for technical issues
 
